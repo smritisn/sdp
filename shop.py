@@ -18,6 +18,7 @@ SHOP_LOCATION = {'latitude': 13.057088744468263, 'longitude': 80.19379382359077}
 class HashTable:
     def _init_(self, size=10):
         self.size = size
+
         self.table = [[] for _ in range(size)]
 
     def hash_function(self, key):
